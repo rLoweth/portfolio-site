@@ -2,6 +2,9 @@ import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 
 import polytope from '../assets/images/Polytope.png';
+import favicon from '../assets/images/favicon.ico';
+import EQ from '../assets/images/EQ.png';
+import NoshTome from '../assets/images/NoshTome.png';
 import Card from './Card';
 
 class Carousel extends React.Component {
@@ -12,26 +15,26 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'First Project',
-                    subTitle: 'This is my first project',
-                    imgSrc: polytope,
-                    link: '//https://github.com/rLoweth',
+                    title: 'Jammming',
+                    subTitle: 'Spotify playlist App - JS, React, Spotify API',
+                    imgSrc: favicon,
+                    link: 'https://github.com/rLoweth/Jammming',
                     selected: false
                 },
                 {
                     id: 1,
-                    title: 'Second Project',
-                    subTitle: 'This is my second project',
-                    imgSrc: polytope,
-                    link: 'https://github.com/rLoweth',
+                    title: 'EQ plugin',
+                    subTitle: 'A graphic equalizer audio plugin - C++, JUCE, STL',
+                    imgSrc: EQ,
+                    link: 'https://github.com/rLoweth/EQpedal',
                     selected: false
                 },
                 {
                     id: 2,
-                    title: 'Third Project',
-                    subTitle: 'This is my third project',
-                    imgSrc: polytope,
-                    link: 'https://github.com/rLoweth',
+                    title: 'Nosh Tome',
+                    subTitle: 'Recipe web app - React, Rails, PostgreSQL',
+                    imgSrc: NoshTome,
+                    link: 'https://github.com/rLoweth/nosh_tome',
                     selected: false
                 }
             ]
