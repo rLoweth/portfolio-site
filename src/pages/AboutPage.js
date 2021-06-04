@@ -13,7 +13,7 @@ function AboutPage(props) {
             <Content>
             <p> Hello! 
 
-                I'm Ryan, a musician turned software developer. During the pandemic in 2020 I was without much of my income, so I decided to take my new free time and learn to code. I love to create cool things and solve new problems, and I enjoy putting these passions to use in code. I use lots of Javascript, but also enjoy using C++ and a bit of Ruby and Python. Thanks for taking a look at my portfolio!
+                I'm Ryan, a musician turned software developer. During the pandemic in 2020 I was without much of my income, so I decided to take my new free time and learn to code. I love to create cool things and solve new problems, and I enjoy finding the details that create more efficient and elegant solutions. I use lots of Javascript, but also enjoy using C++ and a bit of Ruby and Python. Thanks for taking a look at my portfolio!
             </p>
             </Content>
         </div>
