@@ -29,10 +29,10 @@ class App extends React.Component {
       about: {
         title: 'A little bit about me...',
         subTitle: '... and where I would like to go.'
-      }//,
-      //contact: {
-       // title: 'Get in touch!'
-      //}
+      },
+      contact: {
+        title: 'Get in touch!'
+      }
     }
   }
 
@@ -50,14 +50,14 @@ class App extends React.Component {
               <Nav className="ml-auto">
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/about">About</Link>
-                {/*<Link className="nav-link" to="/contact">Contact</Link>*/}
+                <Link className="nav-link" to="/contact">Contact</Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
 
         <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
         <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} subTitle={this.state.about.subTitle} text={this.state.about.text} />} />
-        {/*<Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title} subTitle={this.state.contact.subTitle} text={this.state.contact.text} />} />*/}
+        <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title} subTitle={this.state.contact.subTitle} text={this.state.contact.text} />} />
 
           <Footer />
 
